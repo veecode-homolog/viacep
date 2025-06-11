@@ -6,10 +6,10 @@ metadata:
   annotations:
     github.com/project-slug: veecode-homolog/viacep
     backstage.io/techdocs-ref: dir:..
-    github.com/workflows: publish.yml,remove.yml
+    # github.com/workflows: publish.yml,remove.yml
     kong-manager/service-name: veecode-apr.app-viacep-service-0.8080
-    kong-manager/instance: hml-ec2-test
-    kong-manager/spec : openapi-swagger.yaml
+    kong-manager/instance: kong-demo
+    kong-manager/spec: openapi-swagger.yaml
 spec:
   type: devops
   lifecycle: experimental
